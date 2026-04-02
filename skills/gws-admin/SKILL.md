@@ -1,7 +1,13 @@
 ---
 name: gws-admin
 version: 1.0.0
-description: "Google Workspace Admin SDK: Manage users, groups, and devices."
+description: >
+  Google Workspace Admin Directory API -- create, suspend, and delete users;
+  manage groups and memberships; handle Chrome OS and mobile devices; configure
+  org units, roles, and schemas via the gws CLI.
+  Use when the user asks to provision Google Workspace users, manage group
+  members, wipe or move devices, assign admin roles, work with organizational
+  units, or interact with the Google Admin Directory API.
 metadata:
   openclaw:
     category: "productivity"
