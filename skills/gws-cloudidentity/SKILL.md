@@ -20,6 +20,13 @@ gws cloudidentity <resource> <method> [flags]
 
 ## API Resources
 
+### allowlistedDomains
+
+  - `create` — Adds a domain to the allowlist.
+  - `delete` — Removes a domain from the allowlist.
+  - `get` — Retrieves a specific domain from the allowlist.
+  - `list` — Lists the domains in the allowlist.
+
 ### customers
 
   - `userinvitations` — Operations on the 'userinvitations' resource
@@ -74,8 +81,11 @@ gws cloudidentity <resource> <method> [flags]
 
 ### policies
 
+  - `create` — Create a policy.
+  - `delete` — Delete a policy.
   - `get` — Get a policy.
   - `list` — List policies.
+  - `patch` — Update a policy.
 
 ## Discovering Commands
 
